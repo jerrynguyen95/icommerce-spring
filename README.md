@@ -49,5 +49,5 @@ Client:
 #4. Full CURL commands to verify the APIs (include full request endpoint, HTTP Headers and
 request payload if any)
 - After start the Server at the port 8080
-- Go to link http://localhost:8080/api/icommerce/swagger-ui/ to see all API of project and verify
+- Go to link http://localhost:8080/api/icommerce/swagger-ui/ to see all API of project and verify.
 
