@@ -66,8 +66,8 @@ git config --global alias.tree '! git ls-tree --full-name --name-only -t -r HEAD
 - [Database] - MySQL
 
 Libraries:
-- [Client]: React Bootstrap ( https://react-bootstrap.github.io/ )
-- [Server]: Swagger2, Mapstruct, Lombok, Maven.
+- [Client]: StyleComponent, Jest, esLint, Redux Toolkit, React Bootstrap ( https://react-bootstrap.github.io/ )
+- [Server]: Swagger2, Mapstruct, Lombok, Maven, Sonar
 
 ## Installation and start local
 1. Install MySQL and init the Database map with the `application.properties` and `entity`.
