@@ -1,53 +1,60 @@
-# icommerce-spring
+# ICommerce
+## _The ecommerce MVP website_
 
-#1. A brief explanation for the software development principles, patterns & practices being applied
-- Use the Springboot framework to create an MVP ecommerce project
-- Use swagger 2 to verify the API
-- Use Spring Projection to handle restrict data response and optimize query
-- Use Mapstruct lib to mapping Entity to DTO response automatically
 
-#2. A brief explanation for the code folder structure and the key Java libraries and frameworks being used
-- Code struct Server - Springboot
-src
--- main
----- java
------ src/main/java/com/icommerce/icommerceproject
-------- config
-------- constant
-------- controller
-------- dto
----------- model
----------- projection
----------- request
----------- response
-------------  mapper
-------- entity
-------- repository
-------- service
----------- impl
----- resource
--- test
+ICommerce is a ecommerce website use Springboot and ReactJs
+ReactJS-powered HTML5 Markdown editor at this repo https://github.com/jerrynguyen95/icommerce-ui
 
-- Code struct Client - ReactJS
-src
--- assets
--- common
--- component
--- redux
--- service
--- common
+## Features
 
-#3. All the required steps in order to get the application run on a local computer
-Server: 
-- Go to /icommerce-spring folder and run `mvn clean install` to download libs
-- Go to main class Java `IcommerceprojectApplication` and run the `main` function
-Client:
-- Require: Node version 16.x.x, 
-- Run command `npm install` to install libs from package.json
-- Go to /icommerce-ui folder and run `npm start`
+- We have the Homepage, ProductDetail, Checkout pages
+- Function: get all paging products, search products, add to cart
 
-#4. Full CURL commands to verify the APIs (include full request endpoint, HTTP Headers and
-request payload if any)
-- After start the Server at the port 8080
-- Go to link http://localhost:8080/api/icommerce/swagger-ui/ to see all API of project and verify
+## Software principle, patterns & best practices
+- **Principle**: SOLID, OOP, RESTFul api
+- **Patterns**: Builder, Singleton, Proxy Pattern
+- **Best practice**: 
+    + Use Spring Projection to optimimize the query and restrict the sensitive data response.
+    + Need to map the response data by DTO.
+    + Set defaultTimeZone to Application when handle with datetime
+    + Use the native query instead of common query in Spring JPA to optimize query time.
+    + Use paging for get huge datas
+    + Use redux to store data from Client and send to Server to reduce redundant requests
 
+## Tech
+We have some stacks such as:
+
+- [ReactJS] - HTML enhanced for web apps!
+Code structure:
+// TODO
+
+- [Java Springboot] - Create RESTfull api to communite with client.
+- [Database] - MySQL
+
+Libraries:
+- [Client]: React Bootstrap ( https://react-bootstrap.github.io/ )
+- [Server]: Swagger2, Mapstruct, Lombok, Maven.
+
+## Installation and start local
+1. Install MySQL and init the Database map with the `application.properties` and `entity`.
+Then run the test file `test/../IcommerceprojectApplicationTests.java` to init data
+
+2. Install the dependencies and devDependencies and start the server 
+
+```sh
+cd /icommerce-spring/
+mvn spring-boot:run
+```
+
+Then access to the link http://localhost:8080/api/icommerce/swagger-ui/ to verify the API by Swagger2.
+
+3. Install node ver 16.x.x and the dependencies and devDependencies and start the client.
+
+```sh
+npm install
+npm start
+```
+
+## License
+
+MIT
