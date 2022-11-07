@@ -95,8 +95,8 @@ npm start
 1. Database: 
 <img width="561" alt="image" src="https://user-images.githubusercontent.com/16476251/200240474-3e87a371-27df-4068-98d1-4444e8dbb8f4.png">
 
-2. Architecture design: TBD
-
+2. Architecture design:
+<img width="785" alt="image" src="https://user-images.githubusercontent.com/16476251/200282107-efe1f286-146a-49a3-86e2-53c060c684e1.png">
 
 3. Solution design:
 <img width="879" alt="image" src="https://user-images.githubusercontent.com/16476251/200254815-ab3807a0-23ff-45cb-b02a-ccf6076d6a6f.png">
