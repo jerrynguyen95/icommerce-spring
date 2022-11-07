@@ -25,10 +25,44 @@ ReactJS-powered HTML5 Markdown editor at this repository https://github.com/jerr
 We have some stacks such as:
 
 - [ReactJS] - HTML enhanced for web apps!
-Code structure:
-// TODO
+```sh
+        Code structure:
+        src
+        -- assets         
+        -- common
+        -- component
+        -- redux
+        -- service
+        -- common
+```
+        
 
 - [Java Springboot] - Create RESTfull api to communite with client.
+Code struct Server - Springboot
+git config --global alias.tree '! git ls-tree --full-name --name-only -t -r HEAD | sed -e "s/[^-][^\/]*\//   |/g" -e "s/|\([^ ]\)/|-- \1/"'
+```sh
+        Code structure:
+        src
+        -- main
+        ---- java
+        ----- src/main/java/com/icommerce/icommerceproject
+        ------- config
+        ------- constant
+        ------- controller
+        ------- dto
+        ---------- model
+        ---------- projection
+        ---------- request
+        ---------- response
+        ------------  mapper
+        ------- entity
+        ------- repository
+        ------- service
+        ---------- impl
+        ---- resource
+        -- test
+```
+
 - [Database] - MySQL
 
 Libraries:
