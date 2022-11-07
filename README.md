@@ -3,7 +3,7 @@
 
 
 ICommerce is a ecommerce website use Springboot and ReactJs
-ReactJS-powered HTML5 Markdown editor at this repo https://github.com/jerrynguyen95/icommerce-ui
+ReactJS-powered HTML5 Markdown editor at this repository https://github.com/jerrynguyen95/icommerce-ui
 
 ## Features
 
@@ -49,6 +49,7 @@ mvn spring-boot:run
 Then access to the link http://localhost:8080/api/icommerce/swagger-ui/ to verify the API by Swagger2.
 
 3. Install node ver 16.x.x and the dependencies and devDependencies and start the client.
+Link repository: https://github.com/jerrynguyen95/icommerce-ui
 
 ```sh
 npm install
