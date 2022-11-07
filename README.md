@@ -81,6 +81,7 @@ mvn spring-boot:run
 ```
 
 Then access to the link http://localhost:8080/api/icommerce/swagger-ui/ to verify the API by Swagger2.
+<img width="612" alt="image" src="https://user-images.githubusercontent.com/16476251/200270619-ff71f84d-6833-4de8-8fd1-b0273e9a7ddf.png">
 
 3. Install node ver 16.x.x and the dependencies and devDependencies and start the client.
 Link repository: https://github.com/jerrynguyen95/icommerce-ui
