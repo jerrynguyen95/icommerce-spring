@@ -21,7 +21,7 @@ ReactJS-powered HTML5 Markdown editor at this repository https://github.com/jerr
     + Use paging for get huge datas
     + Use redux to store data from Client and send to Server to reduce redundant requests
 
-## Tech
+## Tech Stacks
 We have some stacks such as:
 
 - [ReactJS] - HTML enhanced for web apps!
