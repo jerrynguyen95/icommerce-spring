@@ -96,7 +96,7 @@ npm start
 <img width="561" alt="image" src="https://user-images.githubusercontent.com/16476251/200240474-3e87a371-27df-4068-98d1-4444e8dbb8f4.png">
 
 2. Architecture design:
-<img width="785" alt="image" src="https://user-images.githubusercontent.com/16476251/200282107-efe1f286-146a-49a3-86e2-53c060c684e1.png">
+<img width="793" alt="image" src="https://user-images.githubusercontent.com/16476251/200282430-9d40005c-f343-4aea-bc9f-c06f558c7647.png">
 
 3. Solution design:
 <img width="879" alt="image" src="https://user-images.githubusercontent.com/16476251/200254815-ab3807a0-23ff-45cb-b02a-ccf6076d6a6f.png">
