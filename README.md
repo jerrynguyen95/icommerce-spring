@@ -38,8 +38,6 @@ We have some stacks such as:
         
 
 - [Java Springboot] - Create RESTfull api to communite with client.
-Code struct Server - Springboot
-git config --global alias.tree '! git ls-tree --full-name --name-only -t -r HEAD | sed -e "s/[^-][^\/]*\//   |/g" -e "s/|\([^ ]\)/|-- \1/"'
 ```sh
         Code structure:
         src
