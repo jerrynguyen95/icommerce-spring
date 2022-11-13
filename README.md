@@ -100,12 +100,23 @@ npm start
 <img width="879" alt="image" src="https://user-images.githubusercontent.com/16476251/200254815-ab3807a0-23ff-45cb-b02a-ccf6076d6a6f.png">
 
 ## Application
-
-![ICommerce_product_search](https://user-images.githubusercontent.com/16476251/201536783-b4288236-ca66-4cab-90fa-28d405bc984a.png)
-![Icommerce_product_detail](https://user-images.githubusercontent.com/16476251/201536793-0d738cef-624d-41f1-86f4-776af86a2053.png)
-![ICommerce_Checkout](https://user-images.githubusercontent.com/16476251/201536799-646818c2-cbc9-44f7-8e17-d7e880043e0a.png)
-![ICommerce_cart](https://user-images.githubusercontent.com/16476251/201536800-71b5b499-3460-4fa9-af65-5ac75ca2b786.png)
+### 1. Homepage
 ![ICommerce Application](https://user-images.githubusercontent.com/16476251/201536804-e04035fe-3fbd-4c6c-a236-bd34dc5abf1f.png)
+
+### 2. Cart
+![ICommerce_cart](https://user-images.githubusercontent.com/16476251/201536800-71b5b499-3460-4fa9-af65-5ac75ca2b786.png)
+
+### 3. Checkout
+![ICommerce_Checkout](https://user-images.githubusercontent.com/16476251/201536799-646818c2-cbc9-44f7-8e17-d7e880043e0a.png)
+
+### 4. Product Search
+![ICommerce_product_search](https://user-images.githubusercontent.com/16476251/201536783-b4288236-ca66-4cab-90fa-28d405bc984a.png)
+
+### 5. Product Detail
+![Icommerce_product_detail](https://user-images.githubusercontent.com/16476251/201536793-0d738cef-624d-41f1-86f4-776af86a2053.png)
+
+
+
 
 
 ## License
